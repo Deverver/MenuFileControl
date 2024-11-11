@@ -23,19 +23,19 @@ public class Main {
                     createFile(fileName);
                     break;
                 case (2):
-                    System.out.println("this is the Read File menu");
+                    System.out.println("This is the Read From File menu");
                     fileName = nextFile(scanner);
                     readFromFile(fileName);
                     break;
                 case (3):
-                    System.out.println("this is the Write to File menu");
+                    System.out.println("This is the Write to File menu");
                     fileName = nextFile(scanner);
                     System.out.println("Please enter the content you to write");
                     String content = scanner.nextLine();
                     writeToFile(fileName, content);
                     break;
                 case (4):
-                    System.out.println("this is the Delete File menu");
+                    System.out.println("This is the Delete File menu");
                     fileName = nextFile(scanner);
                     deleteFile(fileName);
                     break;
